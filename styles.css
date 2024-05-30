@@ -4,3 +4,20 @@ body {
     padding: 0;
     background-color: slategray;
 }
+
+header {
+    padding: 10px 0;
+    position: fixed; 
+    top: 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
