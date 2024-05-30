@@ -27,3 +27,14 @@ header nav ul li a {
     text-decoration: none;
     text-transform: uppercase;
 }
+
+.section {
+    padding: 60px 20px;
+    margin-top: 60px; /* prevent content from hiding under fixed header*/
+}
+
+.section-container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
