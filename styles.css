@@ -40,3 +40,14 @@ header nav ul li a {
     margin: auto;
     overflow: hidden;
 }
+
+#contact a {
+    color: #0e76a8; /* LinkedIn's brand color */
+    text-decoration: none;
+    display: inline;
+    margin: 10px 0;
+}
+
+#contact a:hover {
+    color: #0a5a7f; /* Darker shade for hover effect */
+}
