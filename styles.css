@@ -16,7 +16,6 @@ header nav ul {
     list-style: none;
     padding: 0;
     text-align: center;
-    margin: 0;
 }
 
 header nav ul li {
@@ -29,6 +28,10 @@ header nav ul li a {
     color: turquoise;
     text-decoration: none;
     text-transform: uppercase;
+}
+
+h1 {
+    font-size: x-large;
 }
 
 .section {
