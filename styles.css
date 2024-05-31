@@ -49,5 +49,9 @@ header nav ul li a {
 }
 
 #contact a:hover {
-    color: #0a5a7f; /* Darker shade for hover effect */
+    color: #0a5a7f; /* Darker shade for hover effect on LinkedIn*/
+}
+
+#contact a:nth-child(2) {
+    color: coral; /* Email */
 }
