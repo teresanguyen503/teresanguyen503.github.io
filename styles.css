@@ -66,8 +66,9 @@ h1 {
     color: #FF7F50; /* Darker shade for hover effect on email*/
 }
 
-i {
-    font-size: 50px;
+#contact i {
+    width: 50px;
+    height: 50px;
 }
 
 .project-container {
