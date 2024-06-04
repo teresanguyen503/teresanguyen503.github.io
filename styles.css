@@ -45,18 +45,25 @@ h1 {
 }
 
 #contact a {
-    color: #0e76a8; /* LinkedIn's brand color */
     text-decoration: none;
     display: inline;
     margin: 10px 0;
 }
 
-#contact a:hover {
+#contact a.linkedin {
+    color: #0e76a8; /* LinkedIn's brand color */
+}
+
+#contact a.linkedin:hover {
     color: #0a5a7f; /* Darker shade for hover effect on LinkedIn*/
 }
 
-#contact a:nth-child(2) {
+#contact a.email {
     color: coral; /* Email */
+}
+
+#contact a.email:hover {
+    color: #FF7F50; /* Darker shade for hover effect on email*/
 }
 
 .project-container {
