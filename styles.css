@@ -59,17 +59,12 @@ h1 {
 }
 
 #contact a.email {
-    color: coral; /* Email */
+    color: #f08080; /* Email */
 }
 
 #contact a.email:hover {
     color: #FF7F50; /* Darker shade for hover effect on email*/
 }
-
-/* #contact i {
-    width: 50px;
-    height: 50px;
-} */
 
 .project-container {
     display: flex;
