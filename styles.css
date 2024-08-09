@@ -58,7 +58,7 @@ a {
 }
 
 .section {
-    padding: 60px 20px;
+    padding: 20px;
 }
 
 .section-container {
@@ -90,7 +90,6 @@ a {
 }
 
 .project-container {
-    display: flex;
     align-items: center;
     margin: 20px 0;
 }
