@@ -39,8 +39,15 @@ h1 {
     color: white;
 }
 
-/* fits iphone 13, portrait mode */
-@media (max-width: 390px) {
+/* fits until it gets cut off on minimizing browswer, portrait mode */
+@media (max-width: 617px) {
+    h1 {
+        font-size: 50px; 
+    }
+}
+
+/* fits at least iphone 14 max with extra space, portrait mode */
+@media (max-width: 474px) {
     h1 {
         font-size: 50px; 
     }
