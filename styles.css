@@ -71,6 +71,16 @@ a {
     color: inherit;
 }
 
+.hidden {
+    display: none; 
+}
+
+.showHidden:hover + .hidden {
+    display: block;
+    font-size: 12px;
+    color: red;
+}
+
 .section {
     padding: 20px;
 }
