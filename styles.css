@@ -44,6 +44,14 @@ header nav ul li a {
     color: white;
 }
 
+@media (max-width: 423px) {
+    
+    #resume {
+        margin-top: 10px; 
+        display: inline-block; 
+    }
+}
+
 h1 {
     font-size: 100px;
     color: white;
