@@ -1,17 +1,22 @@
-// Smooth scrolling for navigation links 
-document.addEventListener('DOMContentLoaded', function() {
-    const navLinks = document.querySelectorAll('nav ul li a'); 
+// Smooth scrolling for navigation links
+document.addEventListener("DOMContentLoaded", function () {
+  const navLinks = document.querySelectorAll("nav ul li a");
 
-    navLinks.forEach(link => {
-        link.addEventListener('click', function(e) {
-            e.preventDefault(); 
-            const targetId = this.getAttribute('href').substring(1); 
-            const targetSection = document.getElementById(targetId); 
+  navLinks.forEach((link) => {
+    link.addEventListener("click", function (e) {
+      const targetId = this.getAttribute("href");
 
-            window.scrollTo({
-                top: targetSection.offsetTop - 80, 
-                behavior: 'smooth'
-            }); 
-        }); 
-    }); 
-}); 
+      if (targetId.startsWith("#")) {
+        e.preventDefault();
+        const targetSection = document.getElementById(targetId.substring(1));
+
+        if (targetSection) {
+          window.scrollTo({
+            top: targetSection.offsetTop - 80,
+            behavior: "smooth",
+          });
+        }
+      }
+    });
+  });
+});
