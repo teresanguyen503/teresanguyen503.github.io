@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const targetSection = document.getElementById(targetId); 
 
             window.scrollTo({
-                top: targetSection.offsetTop - 50, 
+                top: targetSection.offsetTop - 80, 
                 behavior: 'smooth'
             }); 
         }); 
